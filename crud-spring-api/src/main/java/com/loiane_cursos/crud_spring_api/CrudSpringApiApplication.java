@@ -21,11 +21,11 @@ public class CrudSpringApiApplication {
 
 			Course c = new Course();
 			c.setName("Angular com Spring");
-			c.setCategoria("front-end");
+			c.setCategory("Front-end");
 
 			Course c1 = new Course();
 			c1.setName("Spring Boot");
-			c1.setCategoria("Back-end");
+			c1.setCategory("Back-end");
 
 			courseRepository.save(c);
 			courseRepository.save(c1);

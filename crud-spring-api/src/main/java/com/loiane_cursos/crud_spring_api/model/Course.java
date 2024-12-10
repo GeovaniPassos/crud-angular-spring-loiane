@@ -16,6 +16,6 @@ public class Course {
     private String name;
 
     @Column(length = 20, nullable = false)
-    private String categoria;
+    private String category;
 
 }
