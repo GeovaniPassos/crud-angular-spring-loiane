@@ -32,10 +32,10 @@ export class CoursesComponent implements OnInit {
           this.onError('Error ao carregar a lista de cursos.');
           return of([])
         }),
-        take(1),
+        //take(1),
         //delay(500),
         // or first(),
-        tap(courses => console.log(courses))
+        //tap(courses => console.log(courses))
       );
 
       //subscribe manual
